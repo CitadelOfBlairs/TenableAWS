@@ -1,0 +1,34 @@
+{
+  "aws_accounts":{
+    "Production": {
+      "AccessKey": "SECRET_SAUCE",
+      "Secret": "SUPER_SECRET_SAUCE"
+    }
+ },
+
+  "active_regions": {
+    "eu-west-2": {
+      "region": "eu-west-2",
+      "sc_repo_id": "",
+      "sc_scanzone_id": ""
+    },
+    "us-west-1": {
+      "region": "us-west-1",
+      "sc_repo_id": "",
+      "sc_scanzone_id": ""
+    }
+  },
+
+  "sc_config": {
+    "username": "adminuser",
+    "password": "Happy123",
+    "server": "sc.example.com",
+    "org_username": "orguser",
+    "org_password": "Happy123"
+  },
+
+  "slack": {
+    "slack_channel": "#security",
+    "slack_token": "xxx"
+  }
+}
